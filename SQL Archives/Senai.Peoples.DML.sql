@@ -1,0 +1,8 @@
+USE M_PEOPLES
+
+INSERT INTO TBL_FUNCIONARIOS (NOME, SOBRENOME)
+VALUES		('Catarina' , 'Strada')
+			,('Tadeu' , 'Vitelli')
+GO
+
+SELECT * FROM TBL_FUNCIONARIOS;
